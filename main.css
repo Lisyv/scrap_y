@@ -1,0 +1,43 @@
+html {
+    background-color: pink;
+    padding: 10px;
+    margin: 0;
+}
+body {
+    background-color: red;
+    padding: 10px;
+}
+.parent {
+    background-color: blue;
+    margin: 20px;
+    padding: 100px;
+    display: flex;
+    flex-flow: row-wrap;
+}
+header.placeholder {
+    background-color: yellow;
+    margin: 10px;
+    width:; 150px;
+    height: 100px;
+}
+main content.placeholder {
+    background-color: yellow;
+    margin: 10px;
+    width:; 150px;
+    height: 100px;
+}
+
+heroimage.placeholder {
+    background-color: yellow;
+    margin: 10px;
+    width:; 150px;
+    height: 100px;
+}
+footer.placeholder {
+    background-color: yellow;
+    margin: 10px;
+    width:; 150px;
+    height: 100px;
+}
+
+
