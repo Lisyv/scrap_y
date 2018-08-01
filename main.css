@@ -1,43 +1,27 @@
-html {
-    background-color: pink;
-    padding: 10px;
-    margin: 0;
-}
 body {
-    background-color: red;
-    padding: 10px;
+    font-family: sans-serif;
+    color: #0e2700;
 }
-.parent {
-    background-color: blue;
-    margin: 20px;
-    padding: 100px;
-    display: flex;
-    flex-flow: row-wrap;
+.placeholder {
+    background-color: #c0d8a1;
+    border: 1px solid #ccc;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 200px;
+    /*Note to self: line-height centers the text a lot more evenly, above and below the text, than padding or height would*/
 }
-header.placeholder {
-    background-color: yellow;
-    margin: 10px;
-    width:; 150px;
-    height: 100px;
+.hero {
+    color: #d79002;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-color: #c0d8a1;
+    background-image: url(images/bamboo.jpg);
+    background-position: center 75%; /*Note to self: The background-position property in CSS allows you to move a background image (or gradient) around within its container.*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
-main content.placeholder {
-    background-color: yellow;
-    margin: 10px;
-    width:; 150px;
-    height: 100px;
-}
-
-heroimage.placeholder {
-    background-color: yellow;
-    margin: 10px;
-    width:; 150px;
-    height: 100px;
-}
-footer.placeholder {
-    background-color: yellow;
-    margin: 10px;
-    width:; 150px;
-    height: 100px;
-}
-
-
