@@ -1,0 +1,124 @@
+body {
+    background-color: #c0d8a1;
+    font-family: 'Montserrat', sans-serif;
+    color: #0e2700;
+    margin: 0; /*Note to self: Removes all default margins and pushes everything to edge. Perfect for hero image and footer, but not for rest of content.*/   
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 14px;
+    text-align: center;
+}
+    
+h4 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 300;
+    
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+}
+header {
+    padding: 20px;
+}    
+nav {
+    float: right;
+    font-size: 20px;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    font-weight: 900;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+}
+nav a {
+    color: #0e2700;
+    text-decoration: none;
+    
+}
+a:hover {
+    color: #d79002;
+}
+main {
+    width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer {
+    color: #0e2700;
+    font-size: 14px;
+    padding: 20px;
+    background-color: #d79002;     
+}
+footer p {
+    margin: 0;
+}
+#box {
+    width: 50%;
+    border: 5px solid #555;
+    padding: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+#facial {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright {
+    text-align: left;
+}
+
+.placeholder {
+    border: 1px solid #ccc;
+    display: block;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    /*line-height: 200px;*/
+    /*Note to self: line-height centers the text a lot more evenly, above and below the text, than padding or height would.*/
+}
+/*.hero {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-color: #c0d8a1;
+    background-image: url(images/bamboo.jpg);
+    background-position: center 75%; /*Note to self: The background-position property in CSS allows you to move a background image (or gradient) around within its container.*/
+    /*background-repeat: no-repeat;
+    background-size: cover;*/   
+}
+.logo {
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 40px;
+    color: #0e22700;
+}
+.wrapper {
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.social {
+    float: right;
+}
+    
+    
